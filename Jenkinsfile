@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Source') {
             steps {    
-              checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[credentialsId: 'b1cf5d5e-fb9c-4505-a48d-028ef165406e', url: 'https://github.com/ramanujds/vrzn-app-repo']])
+              checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[credentialsId: 'b1cf5d5e-fb9c-4505-a48d-028ef165406e', url: 'https://github.com/hari95159032/Jenkins-first']])
             }
         }
             
